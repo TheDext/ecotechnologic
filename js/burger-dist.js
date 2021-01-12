@@ -1,0 +1,1 @@
+let headerBurger=document.querySelector(".header__burger"),headerMenu=document.querySelector(".header__menu"),headerPhone=document.querySelector(".header__phone");headerBurger&&headerBurger.addEventListener("click",(function(e){headerBurger.classList.toggle("_active"),headerMenu.classList.toggle("_active")}));
