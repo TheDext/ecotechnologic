@@ -209,7 +209,7 @@ html {
   height: 100%;
   top: 0;
   right: -200%;
-  background: url(/img/icons/popup-bg.svg) no-repeat, white;
+  background: url(../img/icons/popup-bg.svg) no-repeat, white;
   -webkit-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
@@ -229,7 +229,7 @@ html {
   height: 55px;
   top: 50px;
   right: 40px;
-  background: url(/img/icons/close.svg) no-repeat;
+  background: url(../img/icons/close.svg) no-repeat;
 }
 
 .form-popup {
@@ -357,7 +357,7 @@ html {
   display: none;
 }
 .form-popup__check input:checked + label::before {
-  background: url(/img/icons/check.svg) center no-repeat, #2D8ACD;
+  background: url(../img/icons/check.svg) center no-repeat, #2D8ACD;
 }
 .form-popup__button {
   text-align: center;
@@ -372,13 +372,13 @@ html {
   line-height: 18px;
   letter-spacing: 0.1em;
   text-transform: uppercase;
-  background: url(/img/icons/telIncoming.svg) 37px center no-repeat, #41A64E;
+  background: url(../img/icons/telIncoming.svg) 37px center no-repeat, #41A64E;
   -webkit-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
 }
 .form-popup__btn:hover {
-  background: url(/img/icons/telIncoming.svg) 37px center no-repeat, #3cd350;
+  background: url(../img/icons/telIncoming.svg) 37px center no-repeat, #3cd350;
   -webkit-box-shadow: inset 0 0 20px #41A64E;
           box-shadow: inset 0 0 20px #41A64E;
 }
@@ -414,7 +414,7 @@ html {
     height: 45px;
     top: 20px;
     right: 20px;
-    background: url(/img/icons/close.svg) center/cover no-repeat;
+    background: url(../img/icons/close.svg) center/cover no-repeat;
   }
 
   .form-popup {
@@ -939,7 +939,7 @@ body._lock .callback {
   display: inline-block;
   width: 20px;
   height: 20px;
-  background: url(/img/icons/arrowRight.svg);
+  background: url(../img/icons/arrowRight.svg);
   -webkit-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
@@ -1036,7 +1036,7 @@ body.lock {
   font-weight: 600;
   position: relative;
   min-height: 30px;
-  background: url(/img/icons/header/tel.svg) left no-repeat;
+  background: url(../img/icons/header/tel.svg) left no-repeat;
   padding: 4px 0 4px 35px;
   white-space: nowrap;
   margin: 0 0 0 auto;
@@ -1260,7 +1260,7 @@ body.lock {
   display: inline-block;
   width: 21px;
   height: 14px;
-  background: url(/img/icons/arrowMenu.svg) no-repeat;
+  background: url(../img/icons/arrowMenu.svg) no-repeat;
   -webkit-transform: rotate(180deg) translate(0, 50%);
       -ms-transform: rotate(180deg) translate(0, 50%);
           transform: rotate(180deg) translate(0, 50%);
@@ -1364,7 +1364,7 @@ body.lock {
   line-height: 18px;
   letter-spacing: 0.1em;
   text-transform: uppercase;
-  background: url(/img/icons/telIncoming.svg) left center no-repeat;
+  background: url(../img/icons/telIncoming.svg) left center no-repeat;
   padding: 10px 0 10px 59px;
 }
 
@@ -1377,7 +1377,7 @@ body.lock {
     -webkit-transform: translate(0) rotate(45deg);
         -ms-transform: translate(0) rotate(45deg);
             transform: translate(0) rotate(45deg);
-    background: url(/img/icons/telIncoming.svg) center no-repeat, #41A64E;
+    background: url(../img/icons/telIncoming.svg) center no-repeat, #41A64E;
     right: 15px;
   }
   .callback__item {
@@ -1388,11 +1388,11 @@ body.lock {
   .callback {
     width: 54px;
     height: 54px;
-    background: url(/img/icons/telIncoming.svg) center no-repeat, #41A64E;
+    background: url(../img/icons/telIncoming.svg) center no-repeat, #41A64E;
   }
 }
 .mainscreen {
-  background: url(/img/mainscreen/mainscreen-bg.jpg) center/cover no-repeat;
+  background: url(../img/mainscreen/mainscreen-bg.jpg) center/cover no-repeat;
   width: 100%;
   min-height: 860px;
   position: relative;
@@ -1471,7 +1471,7 @@ body.lock {
   top: 0;
   width: 58px;
   height: 58px;
-  background: url(/img/icons/arrowItem.svg) center no-repeat;
+  background: url(../img/icons/arrowItem.svg) center no-repeat;
 }
 .mainscreen__item :after {
   content: "";
@@ -1650,14 +1650,14 @@ body.lock {
     color: #000000;
   }
   .mainscreenMenuDinamic .mainscreen__row .mainscreen__item::after {
-    background: url(/img/icons/arrowItemBlack.svg) center no-repeat;
+    background: url(../img/icons/arrowItemBlack.svg) center no-repeat;
   }
   .mainscreenMenuDinamic .mainscreen__row .mainscreen__item:hover {
     color: #41A64E;
     text-decoration: underline;
   }
   .mainscreenMenuDinamic .mainscreen__row .mainscreen__item:hover::after {
-    background: url(/img/icons/arrowItemGreen.svg) center no-repeat;
+    background: url(../img/icons/arrowItemGreen.svg) center no-repeat;
   }
   .mainscreenMenuDinamic .mainscreen__row .mainscreen__item br {
     display: none;
@@ -1936,7 +1936,7 @@ body.lock {
   position: absolute;
   width: 150px;
   height: 8px;
-  background: url(/img/icons/howWeWork/arrow.svg) center/cover no-repeat;
+  background: url(../img/icons/howWeWork/arrow.svg) center/cover no-repeat;
   top: -17px;
   right: -130%;
 }
@@ -1955,7 +1955,7 @@ body.lock {
 
   .slider-how__img::after {
     width: 100px;
-    background: url(/img/icons/howWeWork/arrow.svg) -60px 0/cover no-repeat;
+    background: url(../img/icons/howWeWork/arrow.svg) -60px 0/cover no-repeat;
     right: -80%;
   }
 }
@@ -2030,13 +2030,13 @@ body.lock {
   display: flex;
 }
 .item-services__img._scrap {
-  background: url(/img/services/01.jpg) center/cover no-repeat;
+  background: url(../img/services/01.jpg) center/cover no-repeat;
 }
 .item-services__img._dismantling {
-  background: url(/img/services/02.jpg) center/cover no-repeat;
+  background: url(../img/services/02.jpg) center/cover no-repeat;
 }
 .item-services__img._spectral {
-  background: url(/img/services/03.jpg) center/cover no-repeat;
+  background: url(../img/services/03.jpg) center/cover no-repeat;
 }
 .item-services__img {
   -webkit-box-flex: 0;
@@ -2159,7 +2159,7 @@ body.lock {
       -ms-flex: 0 1 60.41%;
           flex: 0 1 60.41%;
   width: 100%;
-  background: url(/img/getPoint.jpg) center/cover no-repeat;
+  background: url(../img/getPoint.jpg) center/cover no-repeat;
   padding: 0 0 47.856% 0;
   border-radius: 20px;
 }
@@ -2334,7 +2334,7 @@ body.lock {
   }
 }
 .feedback {
-  background: url(/img/feedback/feedBack.jpg) center/cover no-repeat;
+  background: url(../img/feedback/feedBack.jpg) center/cover no-repeat;
 }
 .feedback__body {
   display: -webkit-box;
@@ -2533,7 +2533,7 @@ body.lock {
   border-radius: 4px;
 }
 .form-feedback__item_check input:checked + label::before {
-  background: url(/img/icons/check.svg) center no-repeat, #2D8ACD;
+  background: url(../img/icons/check.svg) center no-repeat, #2D8ACD;
   border: none;
 }
 .form-feedback__item_btn {
@@ -2824,7 +2824,7 @@ html {
   height: 100%;
   top: 0;
   right: -200%;
-  background: url(/img/icons/popup-bg.svg) no-repeat, white;
+  background: url(../img/icons/popup-bg.svg) no-repeat, white;
   -webkit-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
@@ -2844,7 +2844,7 @@ html {
   height: 55px;
   top: 50px;
   right: 40px;
-  background: url(/img/icons/close.svg) no-repeat;
+  background: url(../img/icons/close.svg) no-repeat;
 }
 
 .form-popup {
@@ -2972,7 +2972,7 @@ html {
   display: none;
 }
 .form-popup__check input:checked + label::before {
-  background: url(/img/icons/check.svg) center no-repeat, #2D8ACD;
+  background: url(../img/icons/check.svg) center no-repeat, #2D8ACD;
 }
 .form-popup__button {
   text-align: center;
@@ -2987,13 +2987,13 @@ html {
   line-height: 18px;
   letter-spacing: 0.1em;
   text-transform: uppercase;
-  background: url(/img/icons/telIncoming.svg) 37px center no-repeat, #41A64E;
+  background: url(../img/icons/telIncoming.svg) 37px center no-repeat, #41A64E;
   -webkit-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
 }
 .form-popup__btn:hover {
-  background: url(/img/icons/telIncoming.svg) 37px center no-repeat, #3cd350;
+  background: url(../img/icons/telIncoming.svg) 37px center no-repeat, #3cd350;
   -webkit-box-shadow: inset 0 0 20px #41A64E;
           box-shadow: inset 0 0 20px #41A64E;
 }
@@ -3029,7 +3029,7 @@ html {
     height: 45px;
     top: 20px;
     right: 20px;
-    background: url(/img/icons/close.svg) center/cover no-repeat;
+    background: url(../img/icons/close.svg) center/cover no-repeat;
   }
 
   .form-popup {
@@ -3548,7 +3548,7 @@ body._lock .callback {
   display: inline-block;
   width: 20px;
   height: 20px;
-  background: url(/img/icons/arrowRight.svg);
+  background: url(../img/icons/arrowRight.svg);
   -webkit-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
@@ -3645,7 +3645,7 @@ body.lock {
   font-weight: 600;
   position: relative;
   min-height: 30px;
-  background: url(/img/icons/header/tel.svg) left no-repeat;
+  background: url(../img/icons/header/tel.svg) left no-repeat;
   padding: 4px 0 4px 35px;
   white-space: nowrap;
   margin: 0 0 0 auto;
@@ -3873,7 +3873,7 @@ body.lock {
   display: inline-block;
   width: 21px;
   height: 14px;
-  background: url(/img/icons/arrowMenu.svg) no-repeat;
+  background: url(../img/icons/arrowMenu.svg) no-repeat;
   -webkit-transform: rotate(180deg) translate(0, 50%);
       -ms-transform: rotate(180deg) translate(0, 50%);
           transform: rotate(180deg) translate(0, 50%);
@@ -3961,7 +3961,7 @@ body.lock {
 .page-mainscreen__body {
   min-height: calc(150px + 295 * ((100vw - 320px) / 1600));
   width: 100%;
-  background: url(/img/pages/page-points/main.jpg) center/cover no-repeat;
+  background: url(../img/pages/page-points/main.jpg) center/cover no-repeat;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -4018,7 +4018,7 @@ body.lock {
   display: inline-block;
   width: 8px;
   height: 8px;
-  background: url(/img/pages/page-points/icons/arrow-right.svg) center no-repeat;
+  background: url(../img/pages/page-points/icons/arrow-right.svg) center no-repeat;
   margin: 0 8px;
   -webkit-transform: translate(0, -25%);
       -ms-transform: translate(0, -25%);
@@ -4098,7 +4098,7 @@ body.lock {
   display: inline-block;
   width: 40px;
   height: 40px;
-  background: url(/img/pages/page-points/icons/trashbox.png) center no-repeat;
+  background: url(../img/pages/page-points/icons/trashbox.png) center no-repeat;
   margin: 0 15px 0 0;
 }
 .place__subtitle {
@@ -4137,7 +4137,7 @@ body.lock {
   }
 }
 .feedback {
-  background: url(/img/feedback/feedBack.jpg) center/cover no-repeat;
+  background: url(../img/feedback/feedBack.jpg) center/cover no-repeat;
 }
 .feedback__body {
   display: -webkit-box;
@@ -4336,7 +4336,7 @@ body.lock {
   border-radius: 4px;
 }
 .form-feedback__item_check input:checked + label::before {
-  background: url(/img/icons/check.svg) center no-repeat, #2D8ACD;
+  background: url(../img/icons/check.svg) center no-repeat, #2D8ACD;
   border: none;
 }
 .form-feedback__item_btn {
@@ -4591,7 +4591,7 @@ html {
   height: 100%;
   top: 0;
   right: -200%;
-  background: url(/img/icons/popup-bg.svg) no-repeat, white;
+  background: url(../img/icons/popup-bg.svg) no-repeat, white;
   -webkit-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
@@ -4611,7 +4611,7 @@ html {
   height: 55px;
   top: 50px;
   right: 40px;
-  background: url(/img/icons/close.svg) no-repeat;
+  background: url(../img/icons/close.svg) no-repeat;
 }
 
 .form-popup {
@@ -4739,7 +4739,7 @@ html {
   display: none;
 }
 .form-popup__check input:checked + label::before {
-  background: url(/img/icons/check.svg) center no-repeat, #2D8ACD;
+  background: url(../img/icons/check.svg) center no-repeat, #2D8ACD;
 }
 .form-popup__button {
   text-align: center;
@@ -4754,13 +4754,13 @@ html {
   line-height: 18px;
   letter-spacing: 0.1em;
   text-transform: uppercase;
-  background: url(/img/icons/telIncoming.svg) 37px center no-repeat, #41A64E;
+  background: url(../img/icons/telIncoming.svg) 37px center no-repeat, #41A64E;
   -webkit-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
 }
 .form-popup__btn:hover {
-  background: url(/img/icons/telIncoming.svg) 37px center no-repeat, #3cd350;
+  background: url(../img/icons/telIncoming.svg) 37px center no-repeat, #3cd350;
   -webkit-box-shadow: inset 0 0 20px #41A64E;
           box-shadow: inset 0 0 20px #41A64E;
 }
@@ -4796,7 +4796,7 @@ html {
     height: 45px;
     top: 20px;
     right: 20px;
-    background: url(/img/icons/close.svg) center/cover no-repeat;
+    background: url(../img/icons/close.svg) center/cover no-repeat;
   }
 
   .form-popup {
@@ -5315,7 +5315,7 @@ body._lock .callback {
   display: inline-block;
   width: 20px;
   height: 20px;
-  background: url(/img/icons/arrowRight.svg);
+  background: url(../img/icons/arrowRight.svg);
   -webkit-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
@@ -5412,7 +5412,7 @@ body.lock {
   font-weight: 600;
   position: relative;
   min-height: 30px;
-  background: url(/img/icons/header/tel.svg) left no-repeat;
+  background: url(../img/icons/header/tel.svg) left no-repeat;
   padding: 4px 0 4px 35px;
   white-space: nowrap;
   margin: 0 0 0 auto;
@@ -5640,7 +5640,7 @@ body.lock {
   display: inline-block;
   width: 21px;
   height: 14px;
-  background: url(/img/icons/arrowMenu.svg) no-repeat;
+  background: url(../img/icons/arrowMenu.svg) no-repeat;
   -webkit-transform: rotate(180deg) translate(0, 50%);
       -ms-transform: rotate(180deg) translate(0, 50%);
           transform: rotate(180deg) translate(0, 50%);
@@ -5728,7 +5728,7 @@ body.lock {
 .vacancy-mainscreen__body {
   min-height: calc(150px + 295 * ((100vw - 320px) / 1600));
   width: 100%;
-  background: url(/img/pages/page-vacancy/main.jpg) center/cover no-repeat;
+  background: url(../img/pages/page-vacancy/main.jpg) center/cover no-repeat;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -5774,7 +5774,7 @@ body.lock {
   display: inline-block;
   width: 8px;
   height: 8px;
-  background: url(/img/pages/page-points/icons/arrow-right.svg) center no-repeat;
+  background: url(../img/pages/page-points/icons/arrow-right.svg) center no-repeat;
   margin: 0 8px;
   -webkit-transform: translate(0, -25%);
       -ms-transform: translate(0, -25%);
@@ -5957,7 +5957,7 @@ body.lock {
 }
 
 .feedback {
-  background: url(/img/feedback/feedBack.jpg) center/cover no-repeat;
+  background: url(../img/feedback/feedBack.jpg) center/cover no-repeat;
 }
 .feedback__container._container {
   margin: 0 auto;
@@ -6159,7 +6159,7 @@ body.lock {
   border-radius: 4px;
 }
 .form-feedback__item_check input:checked + label::before {
-  background: url(/img/icons/check.svg) center no-repeat, #2D8ACD;
+  background: url(../img/icons/check.svg) center no-repeat, #2D8ACD;
   border: none;
 }
 .form-feedback__item_btn {
@@ -6414,7 +6414,7 @@ html {
   height: 100%;
   top: 0;
   right: -200%;
-  background: url(/img/icons/popup-bg.svg) no-repeat, white;
+  background: url(../img/icons/popup-bg.svg) no-repeat, white;
   -webkit-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
@@ -6434,7 +6434,7 @@ html {
   height: 55px;
   top: 50px;
   right: 40px;
-  background: url(/img/icons/close.svg) no-repeat;
+  background: url(../img/icons/close.svg) no-repeat;
 }
 
 .form-popup {
@@ -6562,7 +6562,7 @@ html {
   display: none;
 }
 .form-popup__check input:checked + label::before {
-  background: url(/img/icons/check.svg) center no-repeat, #2D8ACD;
+  background: url(../img/icons/check.svg) center no-repeat, #2D8ACD;
 }
 .form-popup__button {
   text-align: center;
@@ -6577,13 +6577,13 @@ html {
   line-height: 18px;
   letter-spacing: 0.1em;
   text-transform: uppercase;
-  background: url(/img/icons/telIncoming.svg) 37px center no-repeat, #41A64E;
+  background: url(../img/icons/telIncoming.svg) 37px center no-repeat, #41A64E;
   -webkit-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
 }
 .form-popup__btn:hover {
-  background: url(/img/icons/telIncoming.svg) 37px center no-repeat, #3cd350;
+  background: url(../img/icons/telIncoming.svg) 37px center no-repeat, #3cd350;
   -webkit-box-shadow: inset 0 0 20px #41A64E;
           box-shadow: inset 0 0 20px #41A64E;
 }
@@ -6619,7 +6619,7 @@ html {
     height: 45px;
     top: 20px;
     right: 20px;
-    background: url(/img/icons/close.svg) center/cover no-repeat;
+    background: url(../img/icons/close.svg) center/cover no-repeat;
   }
 
   .form-popup {
@@ -7138,7 +7138,7 @@ body._lock .callback {
   display: inline-block;
   width: 20px;
   height: 20px;
-  background: url(/img/icons/arrowRight.svg);
+  background: url(../img/icons/arrowRight.svg);
   -webkit-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
@@ -7235,7 +7235,7 @@ body.lock {
   font-weight: 600;
   position: relative;
   min-height: 30px;
-  background: url(/img/icons/header/tel.svg) left no-repeat;
+  background: url(../img/icons/header/tel.svg) left no-repeat;
   padding: 4px 0 4px 35px;
   white-space: nowrap;
   margin: 0 0 0 auto;
@@ -7463,7 +7463,7 @@ body.lock {
   display: inline-block;
   width: 21px;
   height: 14px;
-  background: url(/img/icons/arrowMenu.svg) no-repeat;
+  background: url(../img/icons/arrowMenu.svg) no-repeat;
   -webkit-transform: rotate(180deg) translate(0, 50%);
       -ms-transform: rotate(180deg) translate(0, 50%);
           transform: rotate(180deg) translate(0, 50%);
@@ -7551,7 +7551,7 @@ body.lock {
 .cooperation-mainscreen__body {
   min-height: calc(150px + 295 * ((100vw - 320px) / 1600));
   width: 100%;
-  background: url(/img/pages/page-cooperation/main.jpg) center/cover no-repeat;
+  background: url(../img/pages/page-cooperation/main.jpg) center/cover no-repeat;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -7597,7 +7597,7 @@ body.lock {
   display: inline-block;
   width: 8px;
   height: 8px;
-  background: url(/img/pages/page-points/icons/arrow-right.svg) center no-repeat;
+  background: url(../img/pages/page-points/icons/arrow-right.svg) center no-repeat;
   margin: 0 8px;
   -webkit-transform: translate(0, -25%);
       -ms-transform: translate(0, -25%);
@@ -7677,10 +7677,10 @@ body.lock {
   display: flex;
 }
 .item-services__img._do {
-  background: url(/img/pages/page-cooperation/01.jpg) center/cover no-repeat;
+  background: url(../img/pages/page-cooperation/01.jpg) center/cover no-repeat;
 }
 .item-services__img._sentence {
-  background: url(/img/pages/page-cooperation/02.jpg) center/cover no-repeat;
+  background: url(../img/pages/page-cooperation/02.jpg) center/cover no-repeat;
 }
 .item-services__img {
   -webkit-box-flex: 0;
@@ -8108,7 +8108,7 @@ html {
   height: 100%;
   top: 0;
   right: -200%;
-  background: url(/img/icons/popup-bg.svg) no-repeat, white;
+  background: url(../img/icons/popup-bg.svg) no-repeat, white;
   -webkit-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
@@ -8128,7 +8128,7 @@ html {
   height: 55px;
   top: 50px;
   right: 40px;
-  background: url(/img/icons/close.svg) no-repeat;
+  background: url(../img/icons/close.svg) no-repeat;
 }
 
 .form-popup {
@@ -8256,7 +8256,7 @@ html {
   display: none;
 }
 .form-popup__check input:checked + label::before {
-  background: url(/img/icons/check.svg) center no-repeat, #2D8ACD;
+  background: url(../img/icons/check.svg) center no-repeat, #2D8ACD;
 }
 .form-popup__button {
   text-align: center;
@@ -8271,13 +8271,13 @@ html {
   line-height: 18px;
   letter-spacing: 0.1em;
   text-transform: uppercase;
-  background: url(/img/icons/telIncoming.svg) 37px center no-repeat, #41A64E;
+  background: url(../img/icons/telIncoming.svg) 37px center no-repeat, #41A64E;
   -webkit-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
 }
 .form-popup__btn:hover {
-  background: url(/img/icons/telIncoming.svg) 37px center no-repeat, #3cd350;
+  background: url(../img/icons/telIncoming.svg) 37px center no-repeat, #3cd350;
   -webkit-box-shadow: inset 0 0 20px #41A64E;
           box-shadow: inset 0 0 20px #41A64E;
 }
@@ -8313,7 +8313,7 @@ html {
     height: 45px;
     top: 20px;
     right: 20px;
-    background: url(/img/icons/close.svg) center/cover no-repeat;
+    background: url(../img/icons/close.svg) center/cover no-repeat;
   }
 
   .form-popup {
@@ -8832,7 +8832,7 @@ body._lock .callback {
   display: inline-block;
   width: 20px;
   height: 20px;
-  background: url(/img/icons/arrowRight.svg);
+  background: url(../img/icons/arrowRight.svg);
   -webkit-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
@@ -8929,7 +8929,7 @@ body.lock {
   font-weight: 600;
   position: relative;
   min-height: 30px;
-  background: url(/img/icons/header/tel.svg) left no-repeat;
+  background: url(../img/icons/header/tel.svg) left no-repeat;
   padding: 4px 0 4px 35px;
   white-space: nowrap;
   margin: 0 0 0 auto;
@@ -9157,7 +9157,7 @@ body.lock {
   display: inline-block;
   width: 21px;
   height: 14px;
-  background: url(/img/icons/arrowMenu.svg) no-repeat;
+  background: url(../img/icons/arrowMenu.svg) no-repeat;
   -webkit-transform: rotate(180deg) translate(0, 50%);
       -ms-transform: rotate(180deg) translate(0, 50%);
           transform: rotate(180deg) translate(0, 50%);
@@ -9245,7 +9245,7 @@ body.lock {
 .contacts-mainscreen__body {
   min-height: calc(150px + 295 * ((100vw - 320px) / 1600));
   width: 100%;
-  background: url(/img/pages/page-contacts/main.jpg) center/cover no-repeat;
+  background: url(../img/pages/page-contacts/main.jpg) center/cover no-repeat;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -9302,7 +9302,7 @@ body.lock {
   display: inline-block;
   width: 8px;
   height: 8px;
-  background: url(/img/contactss/contacts-points/icons/arrow-right.svg) center no-repeat;
+  background: url(../img/contactss/contacts-points/icons/arrow-right.svg) center no-repeat;
   margin: 0 8px;
   -webkit-transform: translate(0, -25%);
       -ms-transform: translate(0, -25%);
@@ -9555,7 +9555,7 @@ body.lock {
   border-radius: 4px;
 }
 .sendmail__item_check input:checked + label::before {
-  background: url(/img/icons/check.svg) center no-repeat, #2D8ACD;
+  background: url(../img/icons/check.svg) center no-repeat, #2D8ACD;
   border: none;
 }
 .sendmail__item_btn {
@@ -9788,7 +9788,7 @@ html {
   height: 100%;
   top: 0;
   right: -200%;
-  background: url(/img/icons/popup-bg.svg) no-repeat, white;
+  background: url(../img/icons/popup-bg.svg) no-repeat, white;
   -webkit-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
@@ -9808,7 +9808,7 @@ html {
   height: 55px;
   top: 50px;
   right: 40px;
-  background: url(/img/icons/close.svg) no-repeat;
+  background: url(../img/icons/close.svg) no-repeat;
 }
 
 .form-popup {
@@ -9936,7 +9936,7 @@ html {
   display: none;
 }
 .form-popup__check input:checked + label::before {
-  background: url(/img/icons/check.svg) center no-repeat, #2D8ACD;
+  background: url(../img/icons/check.svg) center no-repeat, #2D8ACD;
 }
 .form-popup__button {
   text-align: center;
@@ -9951,13 +9951,13 @@ html {
   line-height: 18px;
   letter-spacing: 0.1em;
   text-transform: uppercase;
-  background: url(/img/icons/telIncoming.svg) 37px center no-repeat, #41A64E;
+  background: url(../img/icons/telIncoming.svg) 37px center no-repeat, #41A64E;
   -webkit-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
 }
 .form-popup__btn:hover {
-  background: url(/img/icons/telIncoming.svg) 37px center no-repeat, #3cd350;
+  background: url(../img/icons/telIncoming.svg) 37px center no-repeat, #3cd350;
   -webkit-box-shadow: inset 0 0 20px #41A64E;
           box-shadow: inset 0 0 20px #41A64E;
 }
@@ -9993,7 +9993,7 @@ html {
     height: 45px;
     top: 20px;
     right: 20px;
-    background: url(/img/icons/close.svg) center/cover no-repeat;
+    background: url(../img/icons/close.svg) center/cover no-repeat;
   }
 
   .form-popup {
@@ -10518,7 +10518,7 @@ body._lock .callback {
   display: inline-block;
   width: 20px;
   height: 20px;
-  background: url(/img/icons/arrowRight.svg);
+  background: url(../img/icons/arrowRight.svg);
   -webkit-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
@@ -10615,7 +10615,7 @@ body.lock {
   font-weight: 600;
   position: relative;
   min-height: 30px;
-  background: url(/img/icons/header/tel.svg) left no-repeat;
+  background: url(../img/icons/header/tel.svg) left no-repeat;
   padding: 4px 0 4px 35px;
   white-space: nowrap;
   margin: 0 0 0 auto;
@@ -10843,7 +10843,7 @@ body.lock {
   display: inline-block;
   width: 21px;
   height: 14px;
-  background: url(/img/icons/arrowMenu.svg) no-repeat;
+  background: url(../img/icons/arrowMenu.svg) no-repeat;
   -webkit-transform: rotate(180deg) translate(0, 50%);
       -ms-transform: rotate(180deg) translate(0, 50%);
           transform: rotate(180deg) translate(0, 50%);
@@ -10947,7 +10947,7 @@ body.lock {
   line-height: 18px;
   letter-spacing: 0.1em;
   text-transform: uppercase;
-  background: url(/img/icons/telIncoming.svg) left center no-repeat;
+  background: url(../img/icons/telIncoming.svg) left center no-repeat;
   padding: 10px 0 10px 59px;
 }
 
@@ -10960,7 +10960,7 @@ body.lock {
     -webkit-transform: translate(0) rotate(45deg);
         -ms-transform: translate(0) rotate(45deg);
             transform: translate(0) rotate(45deg);
-    background: url(/img/icons/telIncoming.svg) center no-repeat, #41A64E;
+    background: url(../img/icons/telIncoming.svg) center no-repeat, #41A64E;
     right: 15px;
   }
   .callback__item {
@@ -10971,13 +10971,13 @@ body.lock {
   .callback {
     width: 54px;
     height: 54px;
-    background: url(/img/icons/telIncoming.svg) center no-repeat, #41A64E;
+    background: url(../img/icons/telIncoming.svg) center no-repeat, #41A64E;
   }
 }
 .about-mainscreen__body {
   min-height: calc(150px + 295 * ((100vw - 320px) / 1600));
   width: 100%;
-  background: url(/img/pages/page-about/main.jpg) center/cover no-repeat;
+  background: url(../img/pages/page-about/main.jpg) center/cover no-repeat;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -11023,7 +11023,7 @@ body.lock {
   display: inline-block;
   width: 8px;
   height: 8px;
-  background: url(/img/pages/page-points/icons/arrow-right.svg) center no-repeat;
+  background: url(../img/pages/page-points/icons/arrow-right.svg) center no-repeat;
   margin: 0 8px;
   -webkit-transform: translate(0, -25%);
       -ms-transform: translate(0, -25%);
@@ -11069,10 +11069,10 @@ body.lock {
   display: flex;
 }
 .item-services__img._do {
-  background: url(/img/pages/page-about/01.jpg) center/cover no-repeat;
+  background: url(../img/pages/page-about/01.jpg) center/cover no-repeat;
 }
 .item-services__img._sentence {
-  background: url(/img/pages/page-about/02.jpg) center/cover no-repeat;
+  background: url(../img/pages/page-about/02.jpg) center/cover no-repeat;
 }
 .item-services__img {
   -webkit-box-flex: 0;
@@ -11155,7 +11155,7 @@ body.lock {
   }
 }
 .feedback {
-  background: url(/img/feedback/feedBack.jpg) center/cover no-repeat;
+  background: url(../img/feedback/feedBack.jpg) center/cover no-repeat;
 }
 .feedback__body {
   display: -webkit-box;
@@ -11354,7 +11354,7 @@ body.lock {
   border-radius: 4px;
 }
 .form-feedback__item_check input:checked + label::before {
-  background: url(/img/icons/check.svg) center no-repeat, #2D8ACD;
+  background: url(../img/icons/check.svg) center no-repeat, #2D8ACD;
   border: none;
 }
 .form-feedback__item_btn {
