@@ -1389,7 +1389,7 @@ body.lock {
   }
 }
 .mainscreen {
-  background: url(/img/mainscreen/mainscreen-bg.jpg) center/cover no-repeat;
+  background: url(../img/mainscreen/mainscreen-bg.jpg) center/cover no-repeat;
   width: 100%;
   min-height: 860px;
   position: relative;
