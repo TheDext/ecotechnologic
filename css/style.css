@@ -936,7 +936,7 @@ body._lock .callback {
   display: inline-block;
   width: 20px;
   height: 20px;
-  background: url(/img/icons/arrowRight.svg);
+  background: url(../img/icons/arrowRight.svg);
   -webkit-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
@@ -1033,7 +1033,7 @@ body.lock {
   font-weight: 600;
   position: relative;
   min-height: 30px;
-  background: url(/img/icons/header/tel.svg) left no-repeat;
+  background: url(../img/icons/header/tel.svg) left no-repeat;
   padding: 4px 0 4px 35px;
   white-space: nowrap;
   margin: 0 0 0 auto;
@@ -1257,7 +1257,7 @@ body.lock {
   display: inline-block;
   width: 21px;
   height: 14px;
-  background: url(/img/icons/arrowMenu.svg) no-repeat;
+  background: url(../img/icons/arrowMenu.svg) no-repeat;
   -webkit-transform: rotate(180deg) translate(0, 50%);
       -ms-transform: rotate(180deg) translate(0, 50%);
           transform: rotate(180deg) translate(0, 50%);
@@ -1361,7 +1361,7 @@ body.lock {
   line-height: 18px;
   letter-spacing: 0.1em;
   text-transform: uppercase;
-  background: url(/img/icons/telIncoming.svg) left center no-repeat;
+  background: url(../img/icons/telIncoming.svg) left center no-repeat;
   padding: 10px 0 10px 59px;
 }
 
@@ -1374,7 +1374,7 @@ body.lock {
     -webkit-transform: translate(0) rotate(45deg);
         -ms-transform: translate(0) rotate(45deg);
             transform: translate(0) rotate(45deg);
-    background: url(/img/icons/telIncoming.svg) center no-repeat, #41A64E;
+    background: url(../img/icons/telIncoming.svg) center no-repeat, #41A64E;
     right: 15px;
   }
   .callback__item {
@@ -1385,7 +1385,7 @@ body.lock {
   .callback {
     width: 54px;
     height: 54px;
-    background: url(/img/icons/telIncoming.svg) center no-repeat, #41A64E;
+    background: url(../img/icons/telIncoming.svg) center no-repeat, #41A64E;
   }
 }
 .mainscreen {
@@ -1468,7 +1468,7 @@ body.lock {
   top: 0;
   width: 58px;
   height: 58px;
-  background: url(/img/icons/arrowItem.svg) center no-repeat;
+  background: url(../img/icons/arrowItem.svg) center no-repeat;
 }
 .mainscreen__item :after {
   content: "";
@@ -1647,14 +1647,14 @@ body.lock {
     color: #000000;
   }
   .mainscreenMenuDinamic .mainscreen__row .mainscreen__item::after {
-    background: url(/img/icons/arrowItemBlack.svg) center no-repeat;
+    background: url(../img/icons/arrowItemBlack.svg) center no-repeat;
   }
   .mainscreenMenuDinamic .mainscreen__row .mainscreen__item:hover {
     color: #41A64E;
     text-decoration: underline;
   }
   .mainscreenMenuDinamic .mainscreen__row .mainscreen__item:hover::after {
-    background: url(/img/icons/arrowItemGreen.svg) center no-repeat;
+    background: url(../img/icons/arrowItemGreen.svg) center no-repeat;
   }
   .mainscreenMenuDinamic .mainscreen__row .mainscreen__item br {
     display: none;
@@ -2550,7 +2550,7 @@ body.lock {
   border-radius: 4px;
 }
 .form-feedback__item_check input:checked + label::before {
-  background: url(/img/icons/check.svg) center no-repeat, #2D8ACD;
+  background: url(../img/icons/check.svg) center no-repeat, #2D8ACD;
   border: none;
 }
 .form-feedback__item_btn {
