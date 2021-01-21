@@ -2041,15 +2041,6 @@ body.lock {
   display: -ms-flexbox;
   display: flex;
 }
-.item-services__img._scrap {
-  background: url(/img/services/01.jpg) center/cover no-repeat;
-}
-.item-services__img._dismantling {
-  background: url(/img/services/02.jpg) center/cover no-repeat;
-}
-.item-services__img._analysis {
-  background: url(/img/services/03.jpg) center/cover no-repeat;
-}
 .item-services__img {
   -webkit-box-flex: 0;
       -ms-flex: 0 1 50%;
