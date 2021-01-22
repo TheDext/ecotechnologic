@@ -2247,6 +2247,9 @@ body.lock {
   border-bottom: 1px solid #333333;
   padding: 20px 0;
 }
+.spollers-questions__item:hover {
+  cursor: pointer;
+}
 .spollers-questions__item:first-child {
   padding-top: 0;
 }
